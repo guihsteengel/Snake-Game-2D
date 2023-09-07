@@ -1,1 +1,2 @@
-# Snake-Game-2D
+# Jogo2D-computacao-grafica
+ 

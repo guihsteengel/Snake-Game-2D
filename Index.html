@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Snake Game 2D</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <audio id="iniciarSom" src="game-start.mp3"></audio>
+    <audio id="derrotaSom" src="game-over.mp3"></audio>
+    <audio id="comidaSom" src="mordida.mp3"></audio>
+  </head>
+  <body>
+    <div style="display: flex; height: 100%">
+      <div style="margin: auto">
+        <h1 style="margin: 0">Snake Game</h1>
+        <p id="score">Score: 0</p>
+        <div style="position: relative">
+          <button id="startButton">Play</button>
+          <canvas id="Canvas" width="400" height="400"></canvas>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
